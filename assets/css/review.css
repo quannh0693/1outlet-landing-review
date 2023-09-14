@@ -94,6 +94,16 @@
 }
 .review-main-reviews__item__iner p {
   font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.review-main-reviews__item__iner p .read-more {
+  background-color: #d2d2d2;
+  border-radius: 30px;
+  padding: 2px 15px;
+  margin: 7px 0;
 }
 .review-main-reviews__item__iner__avatar {
   width: 40px;
